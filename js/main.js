@@ -152,3 +152,11 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 			//Bind taskCompleted to checkBoxEventHandler.
 			checkBox.onchange=checkBoxEventHandler;
 }
+
+//cycle over incompleteTaskHolder ul list items
+	//for each list item
+	for (var i=0; i<incompleteTaskHolder.children.length;i++){
+
+		//bind events to list items chldren(tasksCompleted)
+		bindTaskEvents(incompleteTaskHolder.children[i],taskCompleted);
+	}
