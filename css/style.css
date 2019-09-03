@@ -29,3 +29,17 @@ body {
   input, button {
     outline: none;
   }
+
+  button {
+    background: none;
+    border: 0px;
+    color: rgb(7, 6, 6);
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: Lato, sans-serif;
+    cursor: pointer;
+  }
+    button:hover {
+      color: rgb(10, 9, 9);
+    }
