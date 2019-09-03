@@ -107,3 +107,9 @@ body {
  li > .delete:hover {
    color: #CF2323;
  }
+ 
+ /* Completed */
+ #completed-tasks label {
+    text-decoration: line-through;
+    color: rgb(10, 9, 9);
+  }
